@@ -1,0 +1,41 @@
+/**
+ * Copy to a file named config.h and change values
+ */
+
+
+// WiFi configuration
+#define WIFI_SSID "Your WiFi SSID"
+#define WIFI_PASSWORD "Your WiFi Password"
+
+// Slack configuration 
+#define SLACK_HOSTNAME "hooks.slack.com"
+#define SLACK_URL_PATH "/services/XXXXXXXXX/YYYYYYYYY/ZZZZZZZZZZZZZZZZZZZZZZZZ"
+
+#define SLACK_CHANNEL "#test"
+#define SLACK_USERNAME "coffee-bot"
+#define SLACK_ICON_EMOJI ":coffee:"
+
+// Coffee machine configuration
+#define COFFEE_BREW_DELAY 30000 // 5min
+
+// Notification messages (change code also if add or remove messages)
+#define MESSAGE_1 "Good news everybody. Coffee is ready!"
+#define MESSAGE_2 "Coffee time! Get it while it's hot."
+#define MESSAGE_3 "Ain't no time like coffee time!"
+#define MESSAGE_4 "Keep calm and drink coffee."
+
+// PIN configuration
+#define BUTTON_PIN 0
+
+#define RED_PIN 1
+#define GREEN_PIN 2
+#define BLUE_PIN 3
+
+// Comment out if RGB led is common cathode
+#define COMMON_ANODE
+
+// Multiplier for color values (so that we can use 255 as max in our code)
+// Use 4 on a 10bit platform and 1 on 8bit platform
+#define RGB_LED_MULTIPLIER 4
+
+
