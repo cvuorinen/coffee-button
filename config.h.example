@@ -15,8 +15,8 @@
 #define SLACK_USERNAME "coffee-bot"
 #define SLACK_ICON_EMOJI ":coffee:"
 
-// Coffee machine configuration
-#define COFFEE_BREW_DELAY 30000 // 5min
+// Coffee machine delay configuration (in milliseconds)
+#define COFFEE_BREW_DELAY 300000 // 5min
 
 // Notification messages (change code also if add or remove messages)
 #define MESSAGE_1 "Good news everybody. Coffee is ready!"
